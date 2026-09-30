@@ -1,11 +1,12 @@
 {
-  "name": "cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente",
+  "name": "@felipemadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente",
   "version": "1.1.0",
   "description": "Desenvolvedores enfrentam complexidade em implementar interfaces de linha de comando robustas com suporte a autocompletção em tempo real.",
   "type": "module",
   "main": "src/index.ts",
   "bin": {
-    "cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente": "src/cli/cli.ts"
+    "cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente": "./bin/cli.js",
+    "@felipemadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente": "./bin/cli.js"
   },
   "scripts": {
     "start": "node --experimental-strip-types src/index.ts",
