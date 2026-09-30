@@ -2,9 +2,9 @@
   "slug": "cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente",
   "version": "v1.0.0",
   "archiveFilename": "cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente-v1.0.0.tar.gz",
-  "archiveSizeBytes": 35795,
-  "sha256": "3d97d251aa15c98dbca42bbf609256345174b97b3c3d04718390eb86acc2090c",
+  "archiveSizeBytes": 35675,
+  "sha256": "248eb81b999bb8f828278db7a0a114f9802ebb33f63408f07ebe7092735d3649",
   "filesIncluded": 50,
-  "createdAt": "2026-09-30T16:09:59.555Z",
+  "createdAt": "2026-09-30T16:34:09.676Z",
   "author": "Felipe Madison (@FelipeMadson)"
 }

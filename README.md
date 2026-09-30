@@ -32,6 +32,14 @@
 
 ---
 
+## 📐 Arquitetura do Sistema & Fluxo de Dados
+
+<p align="center">
+  <img src="docs/assets/architecture.svg" alt="Arquitetura & Fluxo de Dados - Cliforge Ferramenta De Criacao De Cli Com Autocompletcao Inteligente" width="920" />
+</p>
+
+---
+
 ## 🎮 Live Interactive Playground (No Backend Required)
 
 Experimente o emulador de terminal interativo com execução de comandos, histórico via setas e autocompletação inteligente via Tab:
