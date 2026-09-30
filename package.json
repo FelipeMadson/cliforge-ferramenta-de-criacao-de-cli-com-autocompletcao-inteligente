@@ -1,0 +1,31 @@
+{
+  "name": "cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente",
+  "version": "1.0.0",
+  "description": "Desenvolvedores enfrentam complexidade em implementar interfaces de linha de comando robustas com suporte a autocompletção em tempo real.",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente": "src/cli/cli.ts"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "cli": "node --experimental-strip-types src/cli/cli.ts",
+    "test": "node --experimental-strip-types --test tests/**/*.test.ts",
+    "build": "tsc --noEmit"
+  },
+  "keywords": [
+    "enterprise",
+    "clean-architecture",
+    "local-first",
+    "typescript",
+    "tsi",
+    "zero-dependency",
+    "cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente"
+  ],
+  "author": "Felipe Madison (@FelipeMadson)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
