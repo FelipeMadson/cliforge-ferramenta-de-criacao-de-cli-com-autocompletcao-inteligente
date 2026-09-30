@@ -1,0 +1,46 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Cliforge Ferramenta De Criacao De Cli Com Autocompletcao Inteligente SBOM",
+  "documentNamespace": "https://github.com/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente/spdxdocs/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente-1.0.0-b2b8cba1-a184-4079-a5cb-0cf0d966bb98",
+  "creationInfo": {
+    "created": "2026-09-30T15:18:12.071Z",
+    "creators": [
+      "Person: Felipe Madison (@FelipeMadson)",
+      "Organization: Autonomous Portfolio Engine — Staff Engineering Grade",
+      "Tool: SecurityCiGenerator-1.0.0"
+    ],
+    "licenseListVersion": "3.21"
+  },
+  "packages": [
+    {
+      "name": "cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente",
+      "SPDXID": "SPDXRef-Package-cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente",
+      "versionInfo": "1.0.0",
+      "packageFileName": "cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente-1.0.0.tar.gz",
+      "packageSupplier": "Person: Felipe Madison (https://github.com/FelipeMadson)",
+      "originator": "Person: Felipe Madison (https://github.com/FelipeMadson)",
+      "downloadLocation": "git+https://github.com/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente.git@v1.0.0",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9441eb560b0956bfac1bf9e482b8a768012fe164d85c12b0a142f0b3400f1f00"
+        }
+      ],
+      "homepage": "https://github.com/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente",
+      "concludedLicense": "MIT",
+      "declaredLicense": "MIT",
+      "copyrightText": "Copyright (c) 2026 Felipe Madison (@FelipeMadson)",
+      "description": "Enterprise-grade production release for Cliforge Ferramenta De Criacao De Cli Com Autocompletcao Inteligente, engineered by Felipe Madison."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}
