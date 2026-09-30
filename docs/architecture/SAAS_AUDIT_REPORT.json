@@ -1,0 +1,15 @@
+{
+  "slug": "cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente",
+  "auditedAt": "2026-09-30T13:03:39.725Z",
+  "score": 100,
+  "checks": {
+    "automatedTestsPassed": true,
+    "testCount": 6,
+    "readmePresent": true,
+    "ciPipelineConfigured": true,
+    "containerizationReady": false,
+    "architectureDocsPresent": false,
+    "authorAttribution": "Felipe Madison (@FelipeMadson)"
+  },
+  "readinessStatus": "PRODUCTION_READY"
+}
