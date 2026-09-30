@@ -1,5 +1,15 @@
 # CLIForge: Ferramenta de Criação de CLI com Autocompletção Inteligente
 
+[![CI Status](https://github.com/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente/actions)
+[![Latest Release](https://img.shields.io/github/v/release/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente?color=145e4d&logo=github)](https://github.com/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente/releases)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![SemVer 2.0.0](https://img.shields.io/badge/semver-2.0.0-blue.svg)](https://semver.org)
+
+[![CI Status](https://github.com/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente/actions)
+[![Latest Release](https://img.shields.io/github/v/release/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente?color=145e4d&logo=github)](https://github.com/FelipeMadson/cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente/releases)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![SemVer 2.0.0](https://img.shields.io/badge/semver-2.0.0-blue.svg)](https://semver.org)
+
 [![Node.js Version](https://img.shields.io/badge/Node.js-22%20%7C%2024%20LTS-brightgreen.svg)](https://nodejs.org)
 [![Architecture](https://img.shields.io/badge/Architecture-Clean%20Hexagonal%20Multi--Tenant-blue.svg)](docs)
 [![Test Suite](https://img.shields.io/badge/Tests-100%25%20Passing%20(18%20tests%20node%3Atest)-success.svg)](tests)
@@ -9,6 +19,15 @@
 > **Desenvolvedores enfrentam complexidade em implementar interfaces de linha de comando robustas com suporte a autocompletção em tempo real.**
 
 ---
+
+
+---
+
+## 🖥️ Demonstração em Terminal Vetorial (Execução & Benchmarks)
+
+<p align="center">
+  <img src="docs/assets/terminal-demo.svg" alt="Terminal Demo - Cliforge Ferramenta De Criacao De Cli Com Autocompletcao Inteligente" width="840" />
+</p>
 
 ## 🏛️ Visão Geral & Arquitetura de Software
 
@@ -69,3 +88,16 @@ npm run cli doctor
 * **Autor:** Felipe Madison ([@FelipeMadson](https://github.com/FelipeMadson))
 * **Formação:** Tecnologia em Sistemas para Internet (TSI)
 * **Licença:** MIT
+
+---
+
+## 📦 Polyglot Client SDKs (TypeScript & Python)
+
+SDKs tipados com zero dependências externas em `sdk/`:
+
+```typescript
+import { cliforgeferramentadecriacaodeclicomautocompletcaointeligenteClient } from "./sdk/ts/client.ts";
+const client = new cliforgeferramentadecriacaodeclicomautocompletcaointeligenteClient({ baseUrl: "http://127.0.0.1:3000" });
+const health = await client.checkHealth();
+console.log("Health:", health.status);
+```
