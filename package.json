@@ -1,6 +1,6 @@
 {
   "name": "cliforge-ferramenta-de-criacao-de-cli-com-autocompletcao-inteligente",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Desenvolvedores enfrentam complexidade em implementar interfaces de linha de comando robustas com suporte a autocompletção em tempo real.",
   "type": "module",
   "main": "src/index.ts",
