@@ -15,5 +15,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Install locked dependencies
+        run: npm ci --ignore-scripts
+      - name: Typecheck all committed source
+        run: npm run build
       - name: Executar Testes Automatizados (Zero Dependências de Runtime)
         run: npm test
